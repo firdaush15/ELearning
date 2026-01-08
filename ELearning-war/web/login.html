@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login | ELearning Platform</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8"> </head>
+<body style="display:flex; align-items:center; justify-content:center; min-height:100vh;">
+
+    <div class="card" style="width: 100%; max-width: 400px; padding: 40px; text-align: center;">
+        
+        <div style="width: 70px; height: 70px; background: var(--primary-gradient); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 10px 20px rgba(118, 75, 162, 0.3);">
+            <i class="fas fa-graduation-cap" style="font-size: 30px; color: white;"></i>
+        </div>
+
+        <h2 style="margin-bottom: 5px; color: var(--text-main);">Welcome Back</h2>
+        <p style="color: var(--text-muted); margin-bottom: 30px; font-size: 0.9rem;">Please sign in to continue</p>
+
+        <form action="Login" method="POST">
+            <div style="text-align: left; margin-bottom: 15px;">
+                <label style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); margin-left: 5px;">Username</label>
+                <input type="text" name="username" required placeholder="Enter your username" style="margin-top: 5px;">
+            </div>
+
+            <div style="text-align: left; margin-bottom: 25px;">
+                <label style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); margin-left: 5px;">Password</label>
+                <input type="password" name="password" required placeholder="******" style="margin-top: 5px;">
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; padding: 12px; font-size: 1rem;">
+                Sign In <i class="fas fa-arrow-right" style="margin-left: 8px;"></i>
+            </button>
+        </form>
+
+        <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid rgba(0,0,0,0.05); font-size: 0.9rem;">
+            <p style="color: var(--text-muted);">Don't have an account? 
+                <a href="register.html" style="color: #667eea; text-decoration: none; font-weight: 600;">Register here</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
